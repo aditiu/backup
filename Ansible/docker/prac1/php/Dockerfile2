@@ -1,0 +1,6 @@
+FROM php:7.2-apache
+MAINTAINER Aditi Upadhyay <aditi.18.coool@gmail.com>
+
+ADD  ./src/ /var/www/html
+
+EXPOSE 80

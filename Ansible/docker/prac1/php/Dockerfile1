@@ -1,0 +1,5 @@
+FROM php:7.2-apache
+MAINTAINER Aditi Upadhyay <aditi.18.coool@gmail.com>
+
+ADD http://www.java2s.com/Code/JarDownload/axis/axis-url.jar.zip /var/www/html/demo
+EXPOSE 80
